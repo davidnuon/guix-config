@@ -27,7 +27,7 @@
   ;; under their own account: use 'guix search KEYWORD' to search
   ;; for packages and 'guix install PACKAGE' to install a package.
   (packages (append 
-		    (map specification->package '("vim" "nss-certs" "icecat" "git" "curl" "wget" "openssh"))
+		    (map specification->package '("vim" "nss-certs" "icecat" "git" "curl" "wget" "openssh" "btop" "neofetch"))
                     %base-packages))
 
   ;; Below is the list of system services.  To search for available
